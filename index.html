@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comunidad - Restaurante Chiavenatos</title>
-     <link rel="stylesheet" href="Css/estilo_nosotros.css">
+    <title>Título de tu página</title>
+    <link rel="stylesheet" href="Css/estiloo1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="menu.html">Menú</a></li>
+                <li><a href="menu.html" class="">Menú</a></li> <!-- Se aplica la clase 'menu' aquí -->
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="comunidad.html">Comunidad</a></li>
                 <li><a href="contacto.html"><div class="contacto">Contacto</div></a></li>
@@ -19,11 +22,15 @@
         </nav>
     </header>
 
-    <main>
-        <section class="nosotros">
-            <h2>Comunidad</h2>
-            
-        </section>
+    <main class="container">
+        <div class="welcome-box">
+            <h1 class="lemon-regular">Bienvenidos a su casa</h1>
+            <div class="buttons">
+                <a href="menu.html" class="menu">Menú</a> <!-- Se aplica la clase 'menu' aquí -->
+                <a href="contacto.html" class="contact">Contacto</a>
+            </div>
+        </div>
+        <!-- Contenido principal de la página -->
     </main>
 
     <footer class="footer">
